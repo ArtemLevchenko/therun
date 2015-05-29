@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<monsters>
+    <monster>
+        <id>M_001</id>
+        <monsterType>ZOMBIE</monsterType>
+        <health>1</health>
+        <damage>1</damage>
+        <chanceToHit>60</chanceToHit>
+        <chanceToEscape>80</chanceToEscape>
+    </monster>
+    <monster>
+        <id>M_002</id>
+        <monsterType>DOG</monsterType>
+        <health>1</health>
+        <damage>2</damage>
+        <chanceToHit>90</chanceToHit>
+        <chanceToEscape>20</chanceToEscape>
+    </monster>
+    <monster>
+        <id>M_003</id>
+        <monsterType>SPIDER</monsterType>
+        <health>2</health>
+        <damage>2</damage>
+        <chanceToHit>50</chanceToHit>
+        <chanceToEscape>50</chanceToEscape>
+    </monster>
+    <monster>
+        <id>M_004</id>
+        <monsterType>HUNTER</monsterType>
+        <health>3</health>
+        <damage>2</damage>
+        <chanceToHit>95</chanceToHit>
+        <chanceToEscape>40</chanceToEscape>
+    </monster>
+    <monster>
+        <id>M_005</id>
+        <monsterType>NEMESIS</monsterType>
+        <health>6</health>
+        <damage>2</damage>
+        <chanceToHit>70</chanceToHit>
+        <chanceToEscape>0</chanceToEscape>
+    </monster>
+</monsters>

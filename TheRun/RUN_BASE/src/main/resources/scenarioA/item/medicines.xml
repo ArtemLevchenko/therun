@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<medicines>
+    <medicine>
+        <id>M_001</id>
+        <name>Spray</name>
+        <image>spray.gif</image>
+        <healing>4</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_002</id>
+        <name>Spray</name>
+        <image>spray.gif</image>
+        <healing>4</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_003</id>
+        <name>Spray</name>
+        <image>spray.gif</image>
+        <healing>4</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_004</id>
+        <name>Alcohol</name>
+        <image>alcohol.gif</image>
+        <healing>2</healing>
+        <medicineType>MENTAL</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_005</id>
+        <name>Alcohol</name>
+        <image>alcohol.gif</image>
+        <healing>2</healing>
+        <medicineType>MENTAL</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_006</id>
+        <name>Alcohol</name>
+        <image>alcohol.gif</image>
+        <healing>2</healing>
+        <medicineType>MENTAL</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_007</id>
+        <name>Green herb</name>
+        <image>green.gif</image>
+        <healing>2</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_008</id>
+        <name>Green herb</name>
+        <image>green.gif</image>
+        <healing>2</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_009</id>
+        <name>Green herb</name>
+        <image>green.gif</image>
+        <healing>2</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_010</id>
+        <name>Green herb</name>
+        <image>green.gif</image>
+        <healing>2</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_011</id>
+        <name>Green herb</name>
+        <image>green.gif</image>
+        <healing>2</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_012</id>
+        <name>Green herb</name>
+        <image>green.gif</image>
+        <healing>2</healing>
+        <medicineType>HEALTH</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_013</id>
+        <name>Acid Pack</name>
+        <image>acid_pack.gif</image>
+        <healing>4</healing>
+        <medicineType>MENTAL</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_014</id>
+        <name>Acid Pack</name>
+        <image>acid_pack.gif</image>
+        <healing>4</healing>
+        <medicineType>MENTAL</medicineType>
+        <description>Test</description>
+    </medicine>
+    <medicine>
+        <id>M_015</id>
+        <name>Acid Pack</name>
+        <image>acid_pack.gif</image>
+        <healing>4</healing>
+        <medicineType>MENTAL</medicineType>
+        <description>Test</description>
+    </medicine>
+
+</medicines>

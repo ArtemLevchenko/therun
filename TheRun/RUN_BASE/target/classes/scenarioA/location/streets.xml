@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<streets>
+    <street>
+        <id>S_001</id>
+        <name>Warren 1st Str.</name>
+        <image>S_001.JPG</image>
+        <description>Длинная продолговатая улица со множеством устаревших конструкций. Ветхие крыши, дизайн времен 70-тых, гробовая тишина улицы - настоящий фильм ужасов прошлого.</description>
+        <size>3</size>
+    </street>
+    <street>
+        <id>S_002</id>
+        <name>Manhattan 23th Str.</name>
+        <image>S_002.JPG</image>
+        <description>Пожалуй, самая короткая улица в городе. Мне доводилось бывать тут и раньше. Но все тут такое не узнаваемое. Кажется, если бы я был туристом, то я бы заблудился.</description>
+        <size>2</size>
+    </street>
+    <street>
+        <id>S_003</id>
+        <name>West Avenue 14th Str.</name>
+        <image>S_003.JPG</image>
+        <size>4</size>
+        <description>Западное направление этого умирающего города. Единственное светлое пятно - вывеска Coffee. Но что-то последнего мне хотелось меньше всего.</description>
+    </street>
+    <street>
+        <id>R_015</id>
+        <name>Kennedy Blvd 45th Str.</name>
+        <image>S_004.JPG</image>
+        <size>4</size>
+        <description>Хаос, царивший на этой улице говорит о том, что трагедия пришла так же спонтанно, как и ушла. И ушла ли?</description>
+    </street>
+</streets>

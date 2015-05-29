@@ -1,0 +1,93 @@
+<beans xmlns="http://www.springframework.org/schema/beans" 
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+    
+    <context:annotation-config />
+    <!-- Start Base converter -->
+    <bean id="loadBaseRoom"
+          class="com.quest.solutions.run.db.converter.RoomConverter" >
+        <constructor-arg value="/scenarioA/location/rooms.xml" />
+    </bean>
+    <bean id="loadBaseStreet"
+          class="com.quest.solutions.run.db.converter.StreetConverter" >
+        <constructor-arg value="/scenarioA/location/streets.xml" />
+    </bean>
+    <bean id="loadBaseAmmo"
+          class="com.quest.solutions.run.db.converter.AmmunitionConverter" >
+        <constructor-arg value="/scenarioA/item/ammo.xml" />
+    </bean>
+    <bean id="loadBaseMedicine"
+          class="com.quest.solutions.run.db.converter.MedicineConverter" >
+        <constructor-arg value="/scenarioA/item/medicines.xml" />
+    </bean>
+    <bean id="loadBaseWeapon"
+          class="com.quest.solutions.run.db.converter.WeaponConverter" >
+        <constructor-arg value="/scenarioA/item/weapons.xml" />
+    </bean>
+    <bean id="loadBaseItemInvenory"
+          class="com.quest.solutions.run.db.converter.ItemInventoryConverter" >
+        <constructor-arg value="/scenarioA/item/itemInventories.xml" />
+    </bean>
+    <bean id="loadBaseKeys"
+          class="com.quest.solutions.run.db.converter.KeyConverter" >
+        <constructor-arg value="/scenarioA/item/keys.xml" />
+    </bean>
+    <bean id="loadBaseMonster"
+          class="com.quest.solutions.run.db.converter.MonsterConverter" >
+        <constructor-arg value="/scenarioA/npc/monsters.xml" />
+    </bean>
+    <bean id="loadBasePlayer"
+          class="com.quest.solutions.run.db.converter.PlayerConverter" >
+        <constructor-arg value="/scenarioA/npc/player.xml" />
+    </bean>
+    <bean id="loadBaseEvents"
+          class="com.quest.solutions.run.db.converter.GlobalEventConverter" >
+        <constructor-arg value="/scenarioA/event/globalEvents.xml" />
+    </bean>
+    <!-- End Base converter -->
+    
+    <!-- ALL POJO CREATED SOURCE -->
+    <bean id="gameLoaderSourceContext"
+          class="com.quest.solutions.run.db.converter.GameLoaderSourceContext" >
+    </bean>
+    
+    <!-- START WORLD GENERATOR -->
+    <bean id="beanGeneratedWorld" class="com.quest.solutions.run.db.gen.GameWorldGenerator">
+        <property name="loaderSourceContext" ref="gameLoaderSourceContext"/>
+        <property name="generatedWorld">
+            <util:list>
+                <ref bean="loadBaseRoom"/>
+                <ref bean="loadBaseStreet"/>
+                <ref bean="loadBaseAmmo"/>
+                <ref bean="loadBaseMedicine"/>
+                <ref bean="loadBaseWeapon"/>
+                <ref bean="loadBaseItemInvenory"/>
+                <ref bean="loadBaseKeys"/>
+                <ref bean="loadBaseMonster"/>
+                <ref bean="loadBasePlayer"/>
+                <ref bean="loadBaseEvents"/>
+            </util:list>
+        </property>
+    </bean>
+    <!-- END WORLD GENERATOR -->
+    
+    <!-- CREATE GAME CONTEXT -->
+    <bean id="gameContext"
+          class="com.quest.solutions.run.context.GameContext" >
+        <constructor-arg name="worldGenerator" ref="beanGeneratedWorld" />
+    </bean>
+    
+    <!-- CREATE ANALYZER -->
+    <bean id="frontGameController"
+          class="com.quest.solutions.run.logic.analyzer.FrontGameController" >
+        <constructor-arg name="gameContext" ref="gameContext" />
+    </bean>
+ 
+     
+</beans>

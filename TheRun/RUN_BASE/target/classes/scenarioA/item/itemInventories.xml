@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<iteminventories>
+    <iteminventory>
+        <id>I_001</id>
+        <name>Evacuation plan</name>
+        <image>note.gif</image>
+        <description>Scenario 1</description>
+        <itemInventoryType>DOCUMENT</itemInventoryType>
+        <text>
+            Эвакуационный план. Совершенно секретно. 
+            На случай непредвиденных ситуаций мы предусмотрели путь эвакуации:
+            1. Убедитесь, что все ученые-исследователи нашей компании находятся в безопасности.
+            2. Подайте сигнал с помощью Signal rockets на вертолетной площадке за церквью.
+            3. Дождитесь спасательного вертолета. </text>
+    </iteminventory>
+    <iteminventory>
+        <id>I_002</id>
+        <name>Signal rockets</name>
+        <image>signal.gif</image>
+        <description>Scenario 1</description>
+        <itemInventoryType>OTHER</itemInventoryType>
+    </iteminventory>
+    
+    <iteminventory>
+        <id>I_003</id>
+        <name>Train manual</name>
+        <image>note.gif</image>
+        <description>Scenario 2</description>
+        <itemInventoryType>DOCUMENT</itemInventoryType>
+        <text>Управление поездом. 
+            Дорогой Джон, я оставил эту записку, на случай, если ты забудешь о том, что я говорил.
+            Чтобы завести поезд, тебе нужно найти Cable, Fuel, Oil. Далее начать починку, как показано на схеме.
+            Твой друг, Фрэнк.
+        </text>
+    </iteminventory>
+    <iteminventory>
+        <id>I_004</id>
+        <name>Cable</name>
+        <image>cable.gif</image>
+        <description>Scenario 2</description>
+        <itemInventoryType>OTHER</itemInventoryType>
+        <text>Scenario 2</text>
+    </iteminventory>
+    <iteminventory>
+        <id>I_005</id>
+        <name>Fuel</name>
+        <image>fuel.gif</image>
+        <description>Scenario 2</description>
+        <itemInventoryType>OTHER</itemInventoryType>
+    </iteminventory>
+    <iteminventory>
+        <id>I_006</id>
+        <name>Oil</name>
+        <image>oil.gif</image>
+        <description>Scenario 2</description>
+        <itemInventoryType>OTHER</itemInventoryType>
+    </iteminventory>
+    
+    <iteminventory>
+        <id>I_007</id>
+        <name>Note mechanic</name>
+        <image>note.gif</image>
+        <description>Scenario 3</description>
+        <itemInventoryType>DOCUMENT</itemInventoryType>
+        <text>Я собираюсь бежать отсюда. Если бы у меня были Car keys и немного Petrol, 
+            то я бы это сделал прямо сейчас.</text>
+    </iteminventory>
+    <iteminventory>
+        <id>I_008</id>
+        <name>Car keys</name>
+        <image>auto_key.gif</image>
+        <description>Scenario 3</description>
+        <itemInventoryType>OTHER</itemInventoryType>
+    </iteminventory>
+    <iteminventory>
+        <id>I_009</id>
+        <name>Petrol</name>
+        <image>petrol.gif</image>
+        <description>Scenario 3</description>
+        <itemInventoryType>OTHER</itemInventoryType>
+    </iteminventory>
+    
+    <iteminventory>
+        <id>I_010</id>
+        <name>Laboratory Manual</name>
+        <image>note.gif</image>
+        <description>Scenario 4</description>
+        <text> На случай, если у вас не удасться убраться на вертолете, то используйте нашу лабораторию.
+            Для обеспечение безопасности введите себе G-Vaccine и оденьте Protective suit. 
+            Убедитесь, что вы один! Спрячьтесь в канализации. Найдите карточку амбреллы, чтобы открыть дверь.</text>
+        <itemInventoryType>DOCUMENT</itemInventoryType>
+    </iteminventory>
+    <iteminventory>
+        <id>I_011</id>
+        <name>Protective suit</name>
+        <image>protective_suit.gif</image>
+        <description>Scenario 4</description>
+        <itemInventoryType>OTHER</itemInventoryType>
+    </iteminventory>
+    <iteminventory>
+        <id>I_012</id>
+        <name>G-Vaccine</name>
+        <image>g_vaccine.gif</image>
+        <description>Scenario 4</description>
+        <itemInventoryType>OTHER</itemInventoryType>
+    </iteminventory>
+
+</iteminventories>

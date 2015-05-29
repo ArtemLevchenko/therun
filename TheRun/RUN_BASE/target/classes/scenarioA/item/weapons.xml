@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<weapons>
+    <weapon>
+        <id>W_001</id>
+        <name>Beretta</name>
+        <image>beretta2.gif</image>
+        <description>Beretta M19 Pistol</description>
+        <ammoType>PISTOL</ammoType>
+        <chanceOfHitting>70</chanceOfHitting>
+        <damage>1</damage>
+    </weapon>
+    <weapon>
+        <id>W_002</id>
+        <name>Knife</name>
+        <image>knife.gif</image>
+        <description>Cold Arms</description>
+        <ammoType>COLD_ARMS</ammoType>
+        <chanceOfHitting>60</chanceOfHitting>
+        <damage>1</damage>
+    </weapon>
+    <weapon>
+        <id>W_003</id>
+        <name>Shotgun</name>
+        <image>benelli.gif</image>
+        <description>Benelli M1</description>
+        <ammoType>SHOTGUN</ammoType>
+        <chanceOfHitting>70</chanceOfHitting>
+        <damage>3</damage>
+    </weapon>
+    <weapon>
+        <id>W_004</id>
+        <name>M16</name>
+        <image>m16.gif</image>
+        <description>Test</description>
+        <ammoType>RIFLE</ammoType>
+        <chanceOfHitting>70</chanceOfHitting>
+        <damage>2</damage>
+    </weapon>
+    <weapon>
+        <id>W_005</id>
+        <name>Magnum</name>
+        <image>magnum.gif</image>
+        <description>Test</description>
+        <ammoType>MAGNUM</ammoType>
+        <chanceOfHitting>90</chanceOfHitting>
+        <damage>4</damage>
+    </weapon>
+</weapons>

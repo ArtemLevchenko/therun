@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<globalEvents>
+    <globalEvent>
+        <id>GE_001</id>
+        <description>
+            Кошмарный сон. В тот первый рабочий день в роли полицейского, обернулся для меня настоящим форменным ужасом. 
+            Я должен был переехать в родной Рэйкон Сити из Колорадо. В такой солнечный день я должен был до заката прибыть в новое место, 
+            а также заехать в полицейский участок, чтобы уладить релокационные формальности. Подъезжая к любимому городу, неожиданно на дорогу выскочил человек. 
+            В лучах заката я не заметил парня и сбил его, а заодно ударился о руль и сам. Столконовение было серьезным и я потерял сознание.
+            Мне снились кошмары...Тучи мертвецов поглотили мой любимый город. Биологическое оружие. Эпидемия. Смерть.
+            От одного из них я пришел в себя. За то время, пока я был без сознания уже порядком стемнело. На дороге не было признаков жизни.
+            Рэйкон Сити был как на ладони, но атмосфера была совсем не радостной. На улице творился какой-то хаос. Тот что приснился мне часами ранее.. 
+            Я никогда не видел будущее. Размышляя я сначала и не заметил, как недалеко от меня начал шагать человек, покачиваясь из стороны в сторону. 
+            Ну пьяница какой-нибудь. Сейчас узнаю, что это всего лишь розыгрыш...Но он рычал, на нем было множество порезов, кровь так и хлистала из его груди. 
+            'Ни с места, полиция'. - крикнул было я... Но он продолжил неторопливо шагать в мою сторону. Это было ужасно. 
+            Я еще никогда не убивал людей. Сердце билось чаще с каждым шагом мертвеца. Я крепко сжал свою Беретту.
+        </description>
+        <typeEvent>LOAD</typeEvent>
+        <weapons>
+            <weapon>
+                <id>W_999</id>
+                <name>Beretta</name>
+                <image>beretta1.gif</image>
+                <description>Beretta M19 Pistol</description>
+                <damage>1</damage>
+                <ammoType>PISTOL</ammoType>
+                <chanceOfHitting>60</chanceOfHitting>
+            </weapon>
+        </weapons>
+        <ammunitions>
+            <ammunition>
+                <id>A_998</id>
+                <name>Ammo Beretta</name>
+                <image>beretta.gif</image>
+                <ammoType>PISTOL</ammoType>
+                <description>Test</description>
+            </ammunition>
+            <ammunition>
+                <id>A_999</id>
+                <name>Ammo Beretta</name>
+                <image>beretta.gif</image>
+                <ammoType>PISTOL</ammoType>
+                <description>Test</description>
+            </ammunition>
+        </ammunitions>
+        <monsters>
+            <monster>
+                <id>M_999</id>
+                <monsterType>ZOMBIE</monsterType>
+                <health>1</health>
+                <damage>1</damage>
+                <chanceToHit>60</chanceToHit>
+                <chanceToEscape>80</chanceToEscape>
+            </monster>
+        </monsters> 
+    </globalEvent>
+    <globalEvent>
+        <id>GE_002</id>
+        <description>Event 2</description>
+        <typeEvent>MONSTERS</typeEvent>
+        <monsters>
+            <monster>
+                <id>M_100</id>
+                <monsterType>DOG</monsterType>
+                <health>1</health>
+                <damage>2</damage>
+                <chanceToHit>90</chanceToHit>
+                <chanceToEscape>20</chanceToEscape>
+            </monster>
+        </monsters>
+    </globalEvent>
+    <globalEvent>
+        <id>GE_003</id>
+        <description>Event 3</description>
+        <typeEvent>MONSTERS</typeEvent>
+        <monsters>
+            <monster>
+                <id>M_101</id>
+                <monsterType>SPIDER</monsterType>
+                <health>2</health>
+                <damage>2</damage>
+                <chanceToHit>50</chanceToHit>
+                <chanceToEscape>50</chanceToEscape>
+            </monster>
+        </monsters>
+    </globalEvent>
+    <globalEvent>
+        <id>GE_004</id>
+        <description>Event 4</description>
+        <typeEvent>PEOPLE_HELP</typeEvent>
+        <monsters>
+            <monster>
+                <id>M_102</id>
+                <monsterType>SPIDER</monsterType>
+                <health>2</health>
+                <damage>2</damage>
+                <chanceToHit>50</chanceToHit>
+                <chanceToEscape>50</chanceToEscape>
+            </monster>
+        </monsters>
+        <players>
+            <player>
+                <name>Ada</name>
+                <health>1</health>
+                <mentalState>1</mentalState>
+                <isNPC>true</isNPC>
+            </player>
+        </players>
+    </globalEvent>
+</globalEvents>

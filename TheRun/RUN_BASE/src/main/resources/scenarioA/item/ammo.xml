@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<ammunitions>
+    <ammunition>
+        <id>A_001</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_002</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_003</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_004</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_005</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_006</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_007</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_008</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_009</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_010</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_011</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    <ammunition>
+        <id>A_012</id>
+        <name>Ammo Beretta</name>
+        <image>beretta.gif</image>
+        <ammoType>PISTOL</ammoType>
+        <description>Test</description>
+    </ammunition>
+    
+    <ammunition>
+        <id>A_013</id>
+        <name>Ammo Beneli</name>
+        <image>shotgun.gif</image>
+        <ammoType>SHOTGUN</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_014</id>
+        <name>Ammo Beneli</name>
+        <image>shotgun.gif</image>
+        <ammoType>SHOTGUN</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_015</id>
+        <name>Ammo Beneli</name>
+        <image>shotgun.gif</image>
+        <ammoType>SHOTGUN</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_016</id>
+        <name>Ammo Beneli</name>
+        <image>shotgun.gif</image>
+        <ammoType>SHOTGUN</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_017</id>
+        <name>Ammo Beneli</name>
+        <image>shotgun.gif</image>
+        <ammoType>SHOTGUN</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_018</id>
+        <name>Ammo Beneli</name>
+        <image>shotgun.gif</image>
+        <ammoType>SHOTGUN</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_019</id>
+        <name>Ammo Beneli</name>
+        <image>shotgun.gif</image>
+        <ammoType>SHOTGUN</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_020</id>
+        <name>Ammo Beneli</name>
+        <image>shotgun.gif</image>
+        <ammoType>SHOTGUN</ammoType>
+        <description>Test</description>
+    </ammunition>
+    
+    <ammunition>
+        <id>A_021</id>
+        <name>Ammo M16</name>
+        <image>m16.gif</image>
+        <ammoType>RIFLE</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_022</id>
+        <name>Ammo M16</name>
+        <image>m16.gif</image>
+        <ammoType>RIFLE</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_023</id>
+        <name>Ammo M16</name>
+        <image>m16.gif</image>
+        <ammoType>RIFLE</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_024</id>
+        <name>Ammo M16</name>
+        <image>m16.gif</image>
+        <ammoType>RIFLE</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_025</id>
+        <name>Ammo M16</name>
+        <image>m16.gif</image>
+        <ammoType>RIFLE</ammoType>
+        <description>Test</description>
+    </ammunition>
+    
+    <ammunition>
+        <id>A_026</id>
+        <name>Ammo Magnum</name>
+        <image>magnum.gif</image>
+        <ammoType>MAGNUM</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_027</id>
+        <name>Ammo Magnum</name>
+        <image>magnum.gif</image>
+        <ammoType>MAGNUM</ammoType>
+        <description>Test</description>
+    </ammunition>
+     <ammunition>
+        <id>A_028</id>
+        <name>Ammo Magnum</name>
+        <image>magnum.gif</image>
+        <ammoType>MAGNUM</ammoType>
+        <description>Test</description>
+    </ammunition>
+
+</ammunitions>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<player>
+    <name>Leon Kennedy</name>
+    <health>5</health>
+    <mentalState>5</mentalState>
+    <inNPC>false</inNPC>
+    <image>kevin.jpg</image>
+</player>

@@ -1,0 +1,13 @@
+КВЕСТЫ.
+
+1) Laboratory (2 lvl) => idcard
+2) Chamber of patients (2 lvl) => Medicine_key
+3) Office S.T.A.R.S (2 lvl) => manager_key
+4) Cabinet Chief of Police (2 lvl) => chief_key
+
+ВЫБРАТЬСЯ.
+
+1) Найти доклад про эвакуацию на вертолете. Найти сигнальные ракеты (спасение 4 их).
+2) ПРОВОДА + МАСЛО + БЕНЗИН (спасение 2 их)
+3) Найти ключи от автомобиля + БЕНЗИН (спасение 1 человека)
+4) костюм ОЗК + Vaciine + Sewerage (спастись самому)

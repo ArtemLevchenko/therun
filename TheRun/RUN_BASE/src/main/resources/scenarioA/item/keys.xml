@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="WINDOWS-1251"?>
+
+<keys>
+    <key>
+        <id>K_001</id>
+        <name>Card</name>
+        <image>laboratory_card.gif</image>
+        <description>Laboratory</description>
+    </key>
+    <key>
+        <id>K_002</id>
+        <name>Medicine key</name>
+        <image>medicine.gif</image>
+        <description>Chamber of patients</description>
+    </key>
+    <key>
+        <id>K_003</id>
+        <name>Manager key</name>
+        <image>manager.gif</image>
+        <description>Office S.T.A.R.S</description>
+    </key>
+    <key>
+        <id>K_004</id>
+        <name>Chief key</name>
+        <image>chief.gif</image>
+        <description>Cabinet Chief of Police</description>
+    </key>
+
+</keys>
